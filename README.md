@@ -390,7 +390,7 @@ If you added CPU-only builds earlier, remove them and add the correct CUDA wheel
 uv remove torch torchvision
 # then add the CUDA-matching wheels for your system
 # (see: https://pytorch.org/get-started/locally/)
-uv add torch torchvision
+uv add <compatible torch torchvision>
 uv sync
 ```
 
