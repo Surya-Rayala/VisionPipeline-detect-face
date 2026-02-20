@@ -1,6 +1,6 @@
 [project]
 name = "detect-face-lib"
-version = "0.1.0"
+version = "0.1.1"
 description = "detect-face-lib is a modular face detection + JSON augmentation toolkit that attaches face detections to det-v1(detections) or track-v1(tracked) payloads produced by earlier stages in the Vision Pipeline."
 readme = "README.md"
 keywords = ["vision", "face-detection", "retinaface", "tracking", "json"]
@@ -9,7 +9,7 @@ authors = [
 ]
 license = { file = "LICENSE" }
 
-requires-python = ">=3.10"
+requires-python = "==3.10.*"
 dependencies = [
     "retinaface-pytorch>=0.0.7",
     "torchvision>=0.25.0",

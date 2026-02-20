@@ -1,6 +1,6 @@
 # detect-face-lib
 
-**Minimum Python:** `>=3.10`
+**Python:** `==3.10.*`
 
 **detect-face-lib** is a modular **face detection + JSON augmentation** toolkit that attaches face detections to **det-v1** (detections) or **track-v1** (tracked) payloads produced by earlier stages in the Vision Pipeline.
 
